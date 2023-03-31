@@ -1,0 +1,34 @@
+.page-linkset {
+
+    display: flex;
+    margin-left: 93px;
+
+    &__item + &__item {
+        margin-left: 50px;
+    }
+
+    &__item {
+        position: relative;
+    }
+}
+
+.page-linkset__link {
+
+    display: inline-block;
+    padding: 32px 0;
+
+    &--active {
+        color: $accent-color;
+    }
+
+    &--active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -1px;
+    left: 0;
+    background-color: $accent-color;
+    border-radius: 2px;
+    }
+}

@@ -1,0 +1,22 @@
+.page-header {
+    border-bottom: 1px solid $border-header-color;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        color: $black-color;
+    }
+
+    &__contacts {
+        display: flex;
+    }
+}

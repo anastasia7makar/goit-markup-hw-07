@@ -1,0 +1,35 @@
+.feauters-list {
+    
+    display: flex;
+
+    &__icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        background-color: $white-for-bg;
+    }
+    
+    &__title {
+        margin-bottom: 10px;
+        color: $title-text-color;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+    }
+    
+    &__text {
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    }
+}
+
+.feauters-list__item {
+    width: 270px;
+
+    & + & {
+        margin-left: 30px;
+    }
+}

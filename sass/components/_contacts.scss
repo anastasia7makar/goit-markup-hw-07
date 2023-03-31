@@ -1,0 +1,32 @@
+.contacts {
+
+    &__item--pos-left + &__item--pos-left {
+        margin-left: 50px;
+    }
+
+    &__item--pos-block {
+        margin-bottom: 9px;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        display: block;
+    }
+
+    &__icon {
+        fill: currentColor;
+        margin-right: 10px;
+    }
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: $primary-text-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
