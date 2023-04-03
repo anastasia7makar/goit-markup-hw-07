@@ -113,13 +113,17 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
-.page-header__logo {
-  color: #000000;
-}
 .page-header__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.page-header__logo {
+  color: #000000;
+}
+.page-header__logo:hover, .page-header__logo:focus {
+  color: #000000;
 }
 
 .logo {

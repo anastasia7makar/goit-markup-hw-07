@@ -12,11 +12,16 @@
         align-items: center;
     }
 
-    &__logo {
-        color: $black-color;
-    }
-
     &__contacts {
         display: flex;
+    }
+}
+
+.page-header__logo {
+    color: $black-color;
+
+    &:hover,
+    &:focus {
+        color: $black-color;
     }
 }
